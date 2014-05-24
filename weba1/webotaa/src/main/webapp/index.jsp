@@ -9,8 +9,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <%
-           
-        %>
+        <%=ContadorVisitas.getContador()  %>
+        
     </body>
 </html>
