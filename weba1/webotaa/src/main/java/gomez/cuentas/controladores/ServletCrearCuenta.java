@@ -25,6 +25,8 @@ public class ServletCrearCuenta extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         //aqui ya se creo una cuenta 
+        out.println("<center>");
         out.println("Cuenta creada con exito");
+        out.println("</center>");
         }
     }
