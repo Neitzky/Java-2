@@ -13,7 +13,7 @@
     </head>
     <body>
        Ya quiero tacos!!!
-       <form action="Chapo.guzman">
+       <form action="Chapo.guzman" method="get">
            <input type="submit" value="Crear cuenta">
        </form>
     </body>
