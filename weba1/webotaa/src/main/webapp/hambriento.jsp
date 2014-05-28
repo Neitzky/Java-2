@@ -12,6 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+       Ya quiero tacos!!!
+       <form action="Chapo.guzman">
+           <input type="submit" value="Crear cuenta">
+       </form>
     </body>
 </html>
