@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 
-package com.mycompany.webotaa;
+package gomez.registro.model;
+
+import com.mycompany.webotaa.*;
 
 /**
  *
@@ -19,5 +21,10 @@ public class Perro {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+    
+    public String obtenerRegistro(){
+        return "El perrito que registraste es:"+nombre;
+        
     }
 }

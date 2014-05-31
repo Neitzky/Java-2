@@ -4,12 +4,24 @@
  * and open the template in the editor.
  */
 
-package com.mycompany.webotaa;
+package gomez.registro.model;
+
+import com.mycompany.webotaa.*;
 
 /**
  *
  * @author T107
  */
 public class Persona {
+   
+    private Perro perro;
+
+    public Perro getPerro() {
+        return perro;
+    }
+
+    public void setPerro(Perro perro) {
+        this.perro = perro;
+    }
     
 }
