@@ -6,13 +6,12 @@
 
 package gomez.registro.model;
 
-import com.mycompany.webotaa.*;
-
 /**
  *
  * @author T107
  */
-public class Perro implements Mascota{
+public class Gato {
+    
     private String nombre;
 
     public String getNombre() {
@@ -23,8 +22,10 @@ public class Perro implements Mascota{
         this.nombre = nombre;
     }
     
+   
+   
     public String obtenerRegistro(){
-        return "El perrito que registraste es:"+nombre;
+        return "Se acaba de registrar un gatito";
         
     }
 }

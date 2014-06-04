@@ -6,24 +6,13 @@
 
 package gomez.registro.model;
 
-import com.mycompany.webotaa.*;
-
 /**
  *
  * @author T107
  */
-public class Persona {
+public interface Mascota {
    
-    private Mascota mascota;
-
-    
-
-    public Mascota getMascota() {
-        return mascota;
+    public String obtenerRegistro();
+        
     }
 
-    public void setMascota(Mascota mascota) {
-        this.mascota = mascota;
-    }
-    
-}

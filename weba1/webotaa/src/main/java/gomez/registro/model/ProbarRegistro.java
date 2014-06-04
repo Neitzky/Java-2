@@ -21,9 +21,9 @@ public class ProbarRegistro {
         Perro p=new Perro();
         p.setNombre("Panquecita");
         Persona x=new Persona();
-        x.setPerro(p);
+        x.setMascota(p);
         //El siguiente es lo que recibira el cliente en el paso 4 
-        System.out.println(x.getPerro().getNombre());
+        System.out.println(x.getMascota().getNombre());
     }
     
 }
